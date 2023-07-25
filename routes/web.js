@@ -1,7 +1,7 @@
 // Import the 'express' module to create the router
 import express from "express";
 // Import the 'controllers' object from the 'toDoController.js' file
-import controllers from "../controllers/toDoController.js";
+import controllers from "../controllers/todoController.js";
 
 // Create a new router instance using the 'express.Router()' function
 const router = express.Router();
